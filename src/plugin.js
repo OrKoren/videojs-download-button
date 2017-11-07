@@ -61,7 +61,7 @@ const downloadButton = function(options) {
 };
 
 // Register the plugin with video.js.
-videojs.plugin('downloadButton', downloadButton);
+videojs.registerPlugin('downloadButton', downloadButton);
 
 // Include the version number.
 downloadButton.VERSION = '__VERSION__';
